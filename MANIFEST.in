@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include easygatepass *.css
+recursive-include easygatepass *.csv
+recursive-include easygatepass *.html
+recursive-include easygatepass *.ico
+recursive-include easygatepass *.js
+recursive-include easygatepass *.json
+recursive-include easygatepass *.md
+recursive-include easygatepass *.png
+recursive-include easygatepass *.py
+recursive-include easygatepass *.svg
+recursive-include easygatepass *.txt
+recursive-exclude easygatepass *.pyc
